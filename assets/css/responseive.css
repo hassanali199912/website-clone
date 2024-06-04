@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) {
+
+.head-div h6{
+    font-size: 10px;
+}
+.head-div h6 span{
+    display: block;
+}
+
+.menu-section .logo {
+    font-size: 20px;
+}
+
+.menu ul li a {
+    font-size: 12px;
+}
+
+.contact-section button {
+    border: 1px solid #333;
+    padding: .2rem 1rem ;
+}
+
+
+.about-content h3{
+    padding: 1rem  0 0 0;
+}
+
+.registiration-page .row {
+    height: 60vh !important;
+}
+
+.registiration-page .form-div{
+   padding: 3rem 0;
+}
+
+.footer .about-footer p{
+    width: 100%;
+    margin: auto;
+}
+
+
+  }

@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-size: 100%;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+/* #region header */
+/* header {
+    height: 100vh !important;
+} */
+
+.header-icon {
+    color: #ff4e00;
+}
+
+.head-div,
+.contact-section {
+    padding: 2rem 1rem;
+}
+
+.menu-section {
+    padding: 2rem 0 0 .5rem;
+    text-align: center;
+}
+
+.menu-section .logo {
+    color: #454546;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 5px #454546;
+    font-size: 50px;
+
+}
+
+.menu ul {
+    border-top: 1px solid #45454669;
+    padding-top: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #454546;
+    transition: all .5s ease;
+}
+
+.menu ul li a:hover {
+    color: #ff4e00;
+}
+
+.contact-section button {
+    border: 1px solid #333;
+    padding: .7rem 2rem;
+}
+
+
+.hero .carousel-caption {
+    right: 50% !important;
+    bottom: 50% !important;
+    left: 0 !important;
+    padding: 0 !important;
+    transform: translate(50%, 50%);
+}
+
+/* #endregion header*/
+
+/* #region main*/
+.main {
+    padding: 5rem 0;
+}
+
+.main .card {
+    /* padding: 1rem 0; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.main .card .card-details h4 {
+    color: #454546;
+    font-size: 16px;
+}
+
+.main .card .card-details .price {
+    color: #ff4e00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main .card .card-details ul {
+    list-style: none;
+    display: flex;
+    padding: 0 !important;
+}
+
+.main .card .card-details ul li i {
+    font-size: 8px;
+    color: #454546;
+}
+
+/* #endregion main*/
+
+/* #region subtime*/
+.subtime {
+    height: 30vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/banner2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.subtime a {
+    text-decoration: none;
+    color: #dfdfdf;
+}
+
+.subtime a.active {
+
+    color: #ff4e00;
+}
+
+/* #endregion subtime*/
+
+/* #region about-section*/
+.about-section {
+    padding: 10rem 0;
+}
+
+.about-content img {
+    width: 100%;
+}
+
+.about-content .btn {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+
+}
+
+.btn-outline-danger {
+    --bs-btn-color: #ff4e00;
+    --bs-btn-border-color: #ff4e00;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #ff4e00;
+    --bs-btn-hover-border-color: #ff4e00;
+    --bs-btn-focus-shadow-rgb: 220, 53, 69;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ff4e00;
+    --bs-btn-active-border-color: #ff4e00;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #ff4e00;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #ff4e00;
+    --bs-gradient: none;
+}
+
+
+
+/* #endregion about-section*/
+
+
+/* #region registiration-page*/
+.registiration-page {
+    height: 100vh;
+}
+
+.registiration-page .row {
+    height: 100vh;
+}
+
+.registiration-page .text-div {
+    background-color: #ff4e00;
+    color: #dfdfdf ;
+}
+.registiration-page .text-div a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #454546;
+}
+.registiration-page .form-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* #endregion registiration-page*/
+
+
+
+
+
+/* #region services*/
+.services {
+    background-color: #dfdfdf;
+    margin: 2rem;
+}
+
+.services .single-item {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.services .single-item .icon i {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #454546;
+    border-radius: 50%;
+
+}
+
+.services .single-item .content .title {
+    color: #ff4e00;
+
+
+}
+
+/* #endregion services*/
+
+/* #region footer*/
+.footer {
+    background-color: #333;
+    color: #dfdfdf;
+    padding: 3rem;
+}
+
+.footer .about-footer p {
+    width: 50%;
+    margin: auto;
+}
+
+.socail {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0 !important;
+}
+
+.socail li i {
+    transition: all .5s ease;
+}
+
+.socail li i:hover {
+    color: #ff4e00;
+}
+
+
+
+.designer {
+    color: #ff4e00;
+}
+
+/* #endregion footer*/

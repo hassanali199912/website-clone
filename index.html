@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone website </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responseive.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3 head-div">
+                        <h6>Need Help</h6>
+                        <h6><span class="header-icon"><i class="fa-solid fa-phone"></i></span> Call 1234567890</h6>
+                    </div>
+                    <div class="col menu-section">
+                        <h1 class="logo">GOGGLES</h1>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 contact-section text-center">
+                        <i class="fa-solid fa-user"></i>
+                        <button class="btn" onclick="window.location.href = 'form.html'">Login</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/banner1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/banner2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/banner3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container-fluid">
+            <h2 class="p-3">New Arrivals for you</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/s1.jpg" alt="" srcset="">
+                        <div class="card-details">
+                            <h4>Farenheit (Grey)</h4>
+                            <h3 class="price">$575.00</h3>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 single-item">
+                    <div class="icon">
+                        <i class="fa-solid fa-gift"></i>
+                    </div>
+                    <div class="content">
+                        <p class="title">
+                            GENUINE PRODUCT
+                        </p>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 single-item">
+                    <div class="icon">
+                        <i class="fa-solid fa-umbrella"></i>
+                    </div>
+                    <div class="content">
+                        <p class="title">
+                            GENUINE PRODUCT
+                        </p>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 single-item">
+                    <div class="icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="content">
+                        <p class="title">
+                            GENUINE PRODUCT
+                        </p>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 single-item">
+                    <div class="icon">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <div class="content">
+                        <p class="title">
+                            GENUINE PRODUCT
+                        </p>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-footer text-center">
+                <h3>About Us</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, vero! Hic ea quasi ex commodi
+                    doloribus? Numquam ut illum voluptatem.</p>
+            </div>
+            <ul class="socail">
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-square-instagram"></i></li>
+            </ul>
+            <hr />
+            <p class="text-center">@ 2023 Coggles. All Right Reservied | Design By <span class="designer">Hassan ali</span></p>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
